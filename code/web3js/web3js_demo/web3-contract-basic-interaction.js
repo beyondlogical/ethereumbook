@@ -91,7 +91,7 @@ var client = require('node-rest-client-promise').Client();
 // Now we are going to deal with the contract from web3.js in a non-block fashion (async mode)
 client.getPromise(etherescan_url)
 .then((client_promise) => {
-  // Leave this two lines for fure object analisys
+  // Leave this two lines for future object analysis
   //const util = require('util')
   //console.log(util.inspect(client_promise, false, null))
 
